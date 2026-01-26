@@ -1,0 +1,43 @@
+# Technical Design Document: TamaraSamokhvalova_ProgrammingExercise_1
+
+# Name: Tamara Samokhvalova
+# Date: January 24, 2025
+# Program Description: The program sells a limited number of cinema tickets, allowing each buyer to purchase up to 4 tickets. It tracks the remaining tickets and counts the total number of buyers until all tickets are sold.
+
+## Function: ask_for_tickets
+Prompts the user to enter the number of tickets they want to buy from 1-4.
+
+Parameters:
+    None
+
+Variables:
+    tickets(int): stores the number of tickets the user wants.
+
+Logic:
+    1. prompt the user to enter the a number from 1-4.
+    2. Convert the input to an integer.
+    3. Return the number of tickets remaining.
+
+Return:
+    tickets(int): the number of tickets the user wants.
+
+#Link to your repository: https://github.com/tamara240906/COP2373 tab=repositories## Function: sell_tickets
+Ticket selling process, counts the buyers, updates the remaining tickets.
+
+Parameters:
+    None
+
+Variables:
+    tickets_left(int): the number of tickets remaining.
+    buyers(int): accumulator counting the purchases.
+    wanted(int): number of tickets the user wants.
+
+Logic:
+    1. Count how many tickets are left
+    2. Loop to get the remaining nuber of tickets.
+    3. When all the tickets get sold, the program will display total number of buyers.
+
+Return:
+    None
+
+#Link to your repository: https://github.com/tamara240906/COP2373 tab=repositories
