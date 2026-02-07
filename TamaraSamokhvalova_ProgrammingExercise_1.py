@@ -18,7 +18,7 @@ def ask_for_tickets():
         tickets(int): the number of tickets the user wants.
     '''
     # Prompt the user to enter a number between 1 and 4
-    tickets = int(input("How many tickets would you like to buy (1 to 4)? "))
+    tickets = int(input("How many tickets do you want to buy today (1 to 4)? "))
 
     # Return the user's input
     return tickets
