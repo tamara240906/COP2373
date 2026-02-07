@@ -46,7 +46,7 @@ def sell_tickets():
     '''
 
     tickets_left = 10
-    buyers = 0
+    customers = 0
     while tickets_left > 0:
         # Display the currently number of tickets remaining
         print("Tickets remaining:", tickets_left)
@@ -57,7 +57,7 @@ def sell_tickets():
         # Validate the number of tickets requested
         if wanted >= 1 and wanted <=4 and wanted <= tickets_left:
             tickets_left -= wanted
-            buyers += 1
+            customers += 1
             print("Tickets remaining after purchase:", tickets_left)
 
         else:
@@ -65,7 +65,7 @@ def sell_tickets():
 
     print("All tickets have been sold.")
 
-    print("Total number of buyers:", buyers)
+    print("Total number of customers:", customers)
 
 #Run the program
 if __name__ == "__main__":
